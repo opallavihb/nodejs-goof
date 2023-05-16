@@ -1,0 +1,9 @@
+name:  APPSEC ISRAEL
+on: [push]
+
+jobs:
+  appsecil:
+    runs-on: ubunto-latest
+    name: Hello World!
+    steps:
+      - run: echo "Hello appsec israel 2023" 
