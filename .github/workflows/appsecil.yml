@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   appsecil:
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
     name: Hello World!
     steps:
       - run: echo "Hello appsec israel 2023" 
