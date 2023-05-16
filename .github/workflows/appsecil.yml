@@ -7,3 +7,5 @@ jobs:
     name: Hello World!
     steps:
       - run: echo "Hello appsec israel 2023" 
+      - run: id
+      - run: env
